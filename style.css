@@ -1,1 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .menu-sticky {
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .secao {
+    padding: 60px 20px;
+    min-height: 100vh;
+    text-align: center;
+    scroll-margin-top: 70px;
+  }
+  
+  #home {
+    background-color: #e0e0e0;
+  }
+  
+  #quest1 {
+    background-color: #f0f0f0;
+  }
+  
+  #quest2 {
+    background-color: #e0e0e0;
+  }
+  
+  #quest3 {
+    background-color: #f0f0f0;
+  }
+
+  #fim {
+    background-color: #e0e0e0;
+  }
+
+
+  .texto {
+    text-indent: 30px;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .logo-nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  .rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 20px;
+  }
+  
+  .logos-footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .img-footer {
+    height: 60px;
+    position: relative;
+    top: -10px;
+    transition: transform 0.3s;
+  }
+  
+  .img-footer:hover {
+    transform: scale(1.05);
+  }
+  
+  .rodape a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .rodape a:hover {
+    text-decoration: underline;
+  }
+  
+  #resposta1 {
+    display: none;
+}
+#erro1 {
+    display: none;
+    color: red;
+}
+
+#pergunta1 {
+    display: none;
+}
+
+#resposta2 {
+    display: none;
+}
+#erro2 {
+    display: none;
+    color: red;
+}
+
+#pergunta2 {
+    display: none;
+}
+
+#resposta3 {
+    display: none;
+}
+#erro3 {
+    display: none;
+    color: red;
+}
+
+#pergunta3 {
+    display: none;
+}
 
