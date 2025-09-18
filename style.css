@@ -21,7 +21,7 @@ header, footer {
 }
 
 #pergunta2, #pergunta3 { 
-    display: none; /* 👈 ESCONDIDAS NO INÍCIO */
+    display: none; 
 }
 
 .resposta {
