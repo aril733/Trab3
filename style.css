@@ -44,3 +44,10 @@ header, footer {
   display: block;
   margin: 10px 0;
 }
+
+#home img {
+  display: block;       /* faz a imagem se comportar como bloco */
+  margin: 0 auto;       /* centraliza horizontalmente */
+  max-width: 300px;     /* controla o tamanho máximo (ajuste se precisar) */
+  height: auto;         /* mantém a proporção */
+}
