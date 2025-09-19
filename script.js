@@ -18,7 +18,7 @@ document.querySelector("#b2").addEventListener("click", function() {
         document.querySelector("#b2").style.display = "none";
         document.querySelector("#pergunta3").style.display = "block"; 
     } else {
-        document.querySelector("#erro2").innerText = "❌ ";
+        document.querySelector("#erro2").innerText = "❌ Resposta errada! ";
         document.querySelector("#erro2").style.display = "block";
     }
 });
@@ -29,7 +29,7 @@ document.querySelector("#b3").addEventListener("click", function() {
         document.querySelector("#erro3").style.display = "none";
         document.querySelector("#b3").style.display = "none";
     } else {
-        document.querySelector("#erro3").innerText = "❌ Resposta errada! O GaAs cristaliza em uma estrutura chamada “blenda de zinco”, que é basicamente uma rede cúbica de face centrada, igual à do diamante, mas alternando átomos de gálio e arsênio. Essa geometria é o que dá ao GaAs suas propriedades semicondutoras especiais. ";
+        document.querySelector("#erro3").innerText = "❌ Resposta errada!";
         document.querySelector("#erro3").style.display = "block";
     }
 });
