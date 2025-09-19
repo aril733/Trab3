@@ -50,3 +50,7 @@ header, footer {
   margin: 0 auto;    
   height: auto;         /* mantém a proporção */
 }
+.secao{
+    padding: 4px;
+    
+}
