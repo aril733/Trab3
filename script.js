@@ -6,7 +6,7 @@ document.querySelector("#b1").addEventListener("click", function() {
         document.querySelector("#b1").style.display = "none";
         document.querySelector("#pergunta2").style.display = "block"; 
     } else {
-        document.querySelector("#erro1").innerText = "❌ Resposta errada! O GaAs é um composto semicondutor. Cada átomo de gálio compartilha elétrons com um átomo de arsênio, formando ligações covalentes. Esses pares de átomos se repetem em um padrão regular, formando uma rede cristalina tridimensional, e não um arranjo de íons como nos sais iônicos (por exemplo, NaCl).";
+        document.querySelector("#erro1").innerText = "❌ Resposta errada!";
         document.querySelector("#erro1").style.display = "block";
     }
 });
