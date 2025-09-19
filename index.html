@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -20,16 +20,18 @@
     <p class="texto">O arsenieto de gálio foi sintetizado e estudado pela primeira vez por Victor Goldschmidt em 1926,passando vapores de arsênio misturados com hidrogênio sobre óxido de gálio (III) a 600 °C.</p>
     <p class="texto">As propriedades semicondutoras do GaAs e outros compostos III-V foram patenteadas por Heinrich Welker na Siemens-Schuckert em 1951  e descritas em uma publicação de 1952. A produção comercial de seus monocristai começou em 1954, e mais estudos se seguiram na década de 1950.  Os primeiros LEDs infravermelhos foram feitos em 1962.</p>
   
-    
-   <img src="img/historia.jpg" alt="historia">  
+    <div id="historia">
+        <img src="img/historia.jpg" alt="historia">  
+    </div>
+   
 
   </section> 
 
         <section id="pergunta1" class="pergunta">
             <h1>Questionário Interativo</h1>
             <p>No modelo atômico de Bohr, o Arseneto de Gálio é formado por: (1/3)</p>
-            <label for="p1o1">Um átomo de gálio e um átomo de arsênio ligados covalentemente, formando uma rede cristalina<input type="radio" name="p1" id="p1o1"></label><br>
-            <label for="p1o2">Íons de gálio e arsênio dispostos em um reticulado iônico<input type="radio" name="p1" id="p1o2"></label><br>
+            <label for="p1o1"><input type="radio" name="p1" id="p1o1">Um átomo de gálio e um átomo de arsênio ligados covalentemente, formando uma rede cristalina</label><br>
+            <label for="p1o2"><input type="radio" name="p1" id="p1o2">Íons de gálio e arsênio dispostos em um reticulado iônico</label><br>
             <button id="b1">Responder</button>
             <p class="erro" id="erro1"></p>
 
@@ -42,8 +44,8 @@
 
         <section id="pergunta2" class="pergunta">
             <p>O tipo de ligação química predominante no GaAs é: (2/3)</p>
-            <label for="p2o1">Ligação covalente<input type="radio" name="p2" id="p2o1"></label><br>
-            <label for="p2o2">Ligação iônica<input type="radio" name="p2" id="p2o2"> </label><br>
+            <label for="p2o1"><input type="radio" name="p2" id="p2o1">Ligação covalente</label><br>
+            <label for="p2o2"><input type="radio" name="p2" id="p2o2">Ligação iônica</label><br>
             <button id="b2">Responder</button>
             <p class="erro" id="erro2"></p>
 
@@ -72,7 +74,8 @@
         <p>© Ariel Soares Rodrigues - Trabalho de Front-end</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
+
