@@ -18,7 +18,7 @@ document.querySelector("#b2").addEventListener("click", function() {
         document.querySelector("#b2").style.display = "none";
         document.querySelector("#pergunta3").style.display = "block"; 
     } else {
-        document.querySelector("#erro2").innerText = "❌ Resposta errada! No GaAs, os elétrons são compartilhados entre o gálio e o arsênio, criando ligações covalentes fortes. Isso é característico de semicondutores, que possuem estrutura semelhante ao diamante. Se fosse ligação iônica, haveria transferência completa de elétrons, formando íons, o que não acontece aqui. ";
+        document.querySelector("#erro2").innerText = "❌ ";
         document.querySelector("#erro2").style.display = "block";
     }
 });
